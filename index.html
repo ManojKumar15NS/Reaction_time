@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reaction Time Tester</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Reaction Time Tester</h1>
+    <p id="instructions">Wait for the box to change color, then click it as quickly as you can!</p>
+    <div id="game-box" class="waiting"></div>
+    <div id="results">
+      <p>Last time: <span id="last-time">-</span> ms</p>
+      <p>Average time: <span id="average-time">-</span> ms</p>
+      <p>Attempts: <span id="attempts">0</span></p>
+    </div>
+    <button id="start-button">Start Game</button>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
